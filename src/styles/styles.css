@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Import af skrifttyper */
+@font-face {
+  font-family: "Boutegard";
+  src: url("/fonts/boutegard-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avantn";
+  src: url("/fonts/avantn-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Globale stilarter */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avantn", sans-serif; /* Brødtekst */
+  background-color: #ece6e6; /* Baggrundsfarve */
+  color: #333; /* Standard tekstfarve */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+  font-family: "Boutegard", serif; /* Logo og overskrifter */
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Placeholder styling */
+input::placeholder {
+  font-style: italic;
+  color: #999;
+}

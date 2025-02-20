@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex items-center justify-between px-8 py-4 bg-[#ECE6E6]">
+    <header className="flex items-center justify-between px-8 py-4">
       {/* Logo */}
       <div className="text-2xl font-boutegard italic">by Sara</div>
 

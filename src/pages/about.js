@@ -21,7 +21,7 @@ export default function About() {
 
             {/* Tekst, der ligger på papiret */}
             <div className="relative z-10 p-10 max-w-[85%] mx-auto text-left">
-              <p className="text-lg leading-relaxed font-avantn">My name is Sara Meisner, and I am a Multimedia Design student at Københavns Erhvervsakademi, specializing in frontend development. My passion for frontend is driven by my curiosity and eagerness to continuously learn and grow. Outside of my studies, I have a strong focus on design and creative work. In my free time, I assist upcoming businesses and artists by contributing my skills in photography, video editing, and brand identity. I love combining my technical knowledge with my creative talents to create visual solutions that engage and inspire.</p>
+              <p className="text-lg leading-relaxed font-avantn">My name is Sara Meisner, and I am a Multimedia Design student at Koebenhavns Erhvervsakademi, specializing in frontend development. My passion for frontend is driven by my curiosity and eagerness to continuously learn and grow. Outside of my studies, I have a strong focus on design and creative work. In my free time, I assist upcoming businesses and artists by contributing my skills in photography, video editing, and brand identity. I love combining my technical knowledge with my creative talents to create visual solutions that engage and inspire.</p>
             </div>
           </div>
         </div>

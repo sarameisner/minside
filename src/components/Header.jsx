@@ -1,20 +1,22 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <header className="flex items-center justify-between px-8 py-4">
+    <header className="flex items-center justify-between px-8 py-4 relative">
       {/* Logo */}
       <div className="text-2xl font-boutegard italic">by Sara</div>
 
       {/* Navigation */}
       <nav className="absolute left-1/2 transform -translate-x-1/2 flex gap-12 text-lg font-avantn">
-        <a href="/portfolio" className="hover:underline">
+        <Link href="/" className="hover:underline">
           portfolio
-        </a>
-        <a href="/about" className="hover:underline">
+        </Link>
+        <Link href="/about" className="hover:underline">
           about me
-        </a>
-        <a href="/contact" className="hover:underline">
+        </Link>
+        <Link href="/contact" className="hover:underline">
           contact
-        </a>
+        </Link>
       </nav>
 
       {/* Søgefelt */}
